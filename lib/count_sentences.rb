@@ -19,6 +19,7 @@ class String
     self.split.each do |word|
       counter += 1 if word.include?(".") || word.include?("?") || word.include?("!")
     end
+    counter
   end
-  counter
+  
 end
