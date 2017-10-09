@@ -20,5 +20,3 @@ class String
   end
   counter
 end
-
-
