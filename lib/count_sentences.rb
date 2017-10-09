@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    counter = 0
     self.split.each do |word|
       counter += 1 if word.include?(".") || word.include?("?") || word.include?("!")
     end
